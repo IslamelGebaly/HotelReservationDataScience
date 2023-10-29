@@ -86,7 +86,7 @@ no_of_previous_bookings_not_canceled = st.number_input("Number of Previous Booki
 sample["no_of_previous_bookings_not_canceled"] = [no_of_previous_bookings_not_canceled]
 
 #Average Price per Room
-avg_price_per_room = st.number_input("Avg Price per Room", min_value=20)
+avg_price_per_room = st.number_input("Avg Price per Room", min_value=1.0)
 sample["avg_price_per_room"] = [avg_price_per_room]
 
 #No of Special Requests
